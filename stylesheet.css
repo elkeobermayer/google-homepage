@@ -1,0 +1,110 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#google-logo {
+    width: 272px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    line-height: 44px;
+    border: none;
+}
+
+#input-wrap {
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 520px;
+    height: 22px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    line-height: 44px;
+}
+
+#magnifying-glass {
+    width: 15px;
+  padding-left: 10px;
+}
+
+#recorder {
+    width: 15px; 
+    padding-right: 10px;
+}
+
+#buttons {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+button {
+   margin: 0 4px; 
+   border: none;
+   background-color: #f2f2f2;
+   color: #5f6368;
+   padding: 0 16px;
+   height: 36px;
+   font-size: 14px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#round a {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 50%;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer li {
+    list-style-type: none;
+    margin: 0 15px;
+
+}
+
+footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
